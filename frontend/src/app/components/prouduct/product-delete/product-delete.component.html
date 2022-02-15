@@ -1,0 +1,25 @@
+<!--Craindo formulário para inserção dos dados do produto-->
+<mat-card>
+    <mat-card-title>Excluir Produto</mat-card-title>
+    <form>
+      <mat-form-field>
+        <!--é feito um two way data binding no product.name
+            ele recebe o conteudo que o user escreve e armazena
+            no atributo produto lá na class -- [(ngModel)]="poduct.name"-->
+        <input matInput placeholder="Nome" 
+               [value]= "product.name" name="name" readonly>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Preço (R$)"
+               [value]= "product.price" name="price" readonly>
+      </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="deleteProduct()" class="delete" color="warn">
+      Deletar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()" class="cancel">
+      Cancelar
+    </button>
+  </mat-card>
+  

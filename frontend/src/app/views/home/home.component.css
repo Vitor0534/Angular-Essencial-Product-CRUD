@@ -1,0 +1,15 @@
+.home .title{
+    /*rem: é uma unidade relativa a configuração do browser
+           ou seja, ele pega a referencia de tamanho relativo a configuração
+           feita pelo user no browser
+      em: é uma unidade de dimensão relativa a tag pai, ou seja, pega
+          a informação do elemeto um nivel acima uma div por exemplo
+    */
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.home .subtitle{
+    font-size: 1.1rem;
+}

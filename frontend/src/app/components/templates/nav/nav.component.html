@@ -1,0 +1,36 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened 
+                 fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+            <a routerLink="/" mat-list-item>
+                <i class="material-icons">
+                    home
+                </i>
+                inicio
+            </a>
+            <!--Perceba que a rota aqui é definida pelo routerLink
+                Ele indica que o componente da rota deve ser carregado
+                la na <router-outlet>
+            -->
+            <a routerLink="/Products" mat-list-item>
+                <i class="material-icons">
+                    storefront
+                </i>
+                produtos
+            </a>
+            <!--Essa lista exemplifica o uso da diretiva estrutural *myFor-->
+            <ul title="Exemplo de uso de diretiva *myFor:">
+                <!--<li *myFor="let n em [1,2,3] usando 'teste'"></li>-->
+                <li *myFor="let n em [1,2,3]">{{n}}</li>
+            </ul>
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <!--Componente da página home-->
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+
+
+</mat-sidenav-container>

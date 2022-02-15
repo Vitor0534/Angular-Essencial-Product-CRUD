@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button{
+    margin: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+    background-color: #117864;
+    color: aliceblue;
+}

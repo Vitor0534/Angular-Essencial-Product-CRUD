@@ -1,0 +1,22 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: large;    
+}
+/*quanto se utiliza o operador ">" indica que o style é para ser aplicado
+  direto na tag selecionada*/
+.footer > span{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+

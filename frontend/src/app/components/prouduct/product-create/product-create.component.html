@@ -1,0 +1,35 @@
+<!--Craindo formulário para inserção dos dados do produto-->
+<mat-card>
+  <mat-card-title>Novo Produto</mat-card-title>
+  <form>
+    <mat-form-field>
+      <!--é feito um two way data binding no product.name
+          ele recebe o conteudo que o user escreve e armazena
+          no atributo produto lá na class -- [(ngModel)]="poduct.name"-->
+      <input matInput placeholder="Nome" 
+             [(ngModel)]= "product.name" name="name">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Preço (R$)"
+             [(ngModel)]= "product.price" name="price">
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="creatProduct()">
+    Salvar
+  </button>
+  
+  <button mat-raised-button (click)="cancel()">
+    Cancelar
+  </button>
+</mat-card>
+
+
+<br><br><br><br><br><br>
+
+<!--o bingind são identificados de duas formas:
+     (nomeEvento): bindigns entre pareteses indicam eventos, como o de clicque
+      [nomeAtributo]: bindings entre colchetes indicam valores de atributos 
+                      coletados direto do TS-->
+<button type="button" (click)="fazerAlgo()">teste binding de evento!!</button>
+<p [id] = "atributodeTeste"> testando um binding de atributo </p>
+                      
