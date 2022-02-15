@@ -31,7 +31,7 @@ A seguir são disponibilizados dois prints das telas do projeto:
 
 #### Componente com tabela de produtos (opções para deletar e editar)
 
-![Home](Images\screen1.png)
+![Home](https://github.com/Vitor0534/Angular-Essencial-Product-CRUD/blob/master/Images/screen1.png)
 
 
 
