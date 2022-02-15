@@ -23,6 +23,11 @@ Esse repositório contem uma aplicação de CRUD de Produtos. Foram utilizados o
     - Importação de exportação de modulos
 - **Backend:** Criado por meio de um Json Server do NodeJs. Esse recurso disponibiliza, de forma rápida, uma API REST para requisições cujos os dados são persistidos operando sobre um objeto JSON;
 
+### Instruções para executar o projeto:
+     - Abra o terminal/konsole de comando na pasta "backend" e execute o comendo: >> npm start
+     - Abra o terminal/konsole de comando na pasta "frontend" e execute o comendo: >> ng serve
+        - Acesse o serviço pesquisando o rota padrão: "http://localhost:4200/"
+
 
 
 A seguir são disponibilizados dois prints das telas do projeto:
