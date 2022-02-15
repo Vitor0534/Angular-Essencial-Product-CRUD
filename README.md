@@ -37,4 +37,4 @@ A seguir são disponibilizados dois prints das telas do projeto:
 
 ### Componente de criação de novo produto
 
-![Home](Images\screen2.png)
+![Home](https://github.com/Vitor0534/Angular-Essencial-Product-CRUD/blob/master/Images/screen2.png)
